@@ -1,0 +1,37 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+dev/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Indexing checkpoint
+.index_checkpoint.json
+
+# Large data files
+data/indexed_products.csv
+data/*.csv
+
+# OS
+.DS_Store
+Thumbstry.db
